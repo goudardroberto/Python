@@ -1,4 +1,12 @@
 """
+Apresentando mensagem ao usuário
+
+nome = input("Digite seu nome: ")
+print("Olá", nome, "bem-vindo(a)!")
+
+nome = input("Digite seu nome: ")
+print(f"Olá {nome}, bem-vindo!")
+
 Recebendo dados do usuário
 
 input significa entrada
