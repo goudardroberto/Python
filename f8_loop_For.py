@@ -68,3 +68,60 @@ for i in range(1, 10):
     print(i * emoji)
 for i in range(10, 0, -1):
     print(i * emoji)
+    
+"""
+Ranges
+
+- Precisamos conhecer o loop for para usar os ranges
+- Precisamos conhecer o range para trabalhar com loops for
+
+Ranges são utilizados para gerar sequências numéricas, não de forma aleatória,
+mas sim de maneira especificada.
+
+Formas gerais:
+
+# Forma 1:
+
+range(valor_de_parada)
+OBS: valor_de_parada não inclusivo (início padrão 0, e passo de 1 em 1)
+
+exemplo forma 1:
+
+for i in range(11):
+    print(i)
+
+# Forma 2:
+
+range(valor_de_inicio, valor_de_parada)
+
+exemplo forma 2:
+
+for i in range(1, 11):
+    print(i)
+
+# Forma 3:
+
+range(valor_de_inicio, valor_final, passo)
+
+exemplo forma 3:
+
+for i in range(1, 11, 2):
+    print(i)
+
+# Forma 4:
+
+range(valor_final, valor_de_inicio, passo)
+OBS: O valor_de_inicio não é inclusivo, o passo vai decrementando o valor
+
+exemplo forma 4:
+
+for i in range(50, 0, -1):
+    print(i)
+"""
+
+# for i in range(50, 0, -1):
+#     print(i)
+
+# Convertendo um range para uma lista
+# lista = list(range(11))
+# print(lista)
