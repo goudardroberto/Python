@@ -1,0 +1,17 @@
+carro
+
+mesa
+
+computador
+
+casa
+
+cadeira
+
+pessoa
+
+porta
+
+comida
+
+bebida
